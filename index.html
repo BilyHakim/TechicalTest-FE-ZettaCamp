@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techical - FE - ZettaCamp</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Simple Pricing!</h1>
+      </div>
+      <div class="paragraph">
+        <p>
+          The most advanced customer support tools with a simple <br />
+          and affordable pricing. And you can always try for 30 days.<br />
+          free!
+        </p>
+      </div>
+
+      <div class="flex-container">
+        <div class="card">
+          <div class="card-heading">
+            <h2>BASIC</h2>
+          </div>
+
+          <div class="price">
+            <p><sup>$</sup> 4 <sub>/ month</sub></p>
+          </div>
+          <hr />
+          <ul>
+            <li><span class="price-bold">10</span> Project</li>
+            <li><span class="price-bold">10</span> Pages</li>
+            <li><span class="price-bold">100</span> Mb Disk Space</li>
+          </ul>
+          <div class="btn" id="success">
+            <a onclick=success() id="btnShow" href="#">BUY NOW</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-heading">
+            <h2>STANDARD</h2>
+            <span style="justify-content: right">Save 15%</span>
+          </div>
+
+          <div class="price">
+            <p><sup>$</sup> 8 <sub>/ month</sub></p>
+          </div>
+          <hr />
+          <ul>
+            <li><span class="price-bold">20</span> Project</li>
+            <li><span class="price-bold">20</span> Pages</li>
+            <li><span class="price-bold">200</span> Mb Disk Space</li>
+          </ul>
+          <div class="btn" id="success">
+            <a onclick=success() id="btnShow" href="#">BUY NOW</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-heading">
+            <h2>ADVANCED</h2>
+          </div>
+
+          <div class="price">
+            <p><sup>$</sup> 12 <sub>/ month</sub></p>
+          </div>
+          <hr />
+          <ul>
+            <li><span class="price-bold">40</span> Project</li>
+            <li><span class="price-bold">40</span> Pages</li>
+            <li><span class="price-bold">500</span> Mb Disk Space</li>
+          </ul>
+          <div class="btn" id="success">
+            <a onclick=success() id="btnShow" href="#">BUY NOW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="heading-faq">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-grid">
+          <ul>
+            <li>
+              <span>What types of payment do you accept?</span>
+              We accept all major credit and debit cards. The Advanced plan also 
+              supports wire and ACH transfers.
+            </li>
+  
+            <li>
+              <span>What is your refund policy?</span>
+              We do not offer refunds. If you cancel your plan before the next renewal 
+              cycle, you will retain access to paid features until the end of your 
+              subscription period. 
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <script>
+      function success() {
+        alert("success buy");
+      }
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

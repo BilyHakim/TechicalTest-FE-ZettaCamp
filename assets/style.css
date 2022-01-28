@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+.container {
+  background-color: #041562;
+}
+
+/* Style Section heading / judul */
+
+.title h1 {
+  color: white;
+  padding-top: 100px;
+  justify-content: center;
+  text-align: center;
+  font-size: 52px;
+  letter-spacing: 1px;
+}
+
+.paragraph {
+  color: white;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+/* Style Card */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #041562 50%, #d9d9d9 50%);
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  background-color: #e1e1e1;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+  margin: 20px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:active {
+  border: 1px solid #0071c5;
+}
+
+.card .card-heading {
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #242424;
+  color: white;
+}
+
+.card .card-heading h2 {
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card .card-heading span {
+  margin-left: 90px;
+}
+
+.card hr {
+  width: 250px;
+  height: 1px;
+  border: none;
+  background-color: rgb(160, 160, 160);
+  margin: auto;
+}
+
+.card .price {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .price p {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.card .price sup {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card .price sub {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li {
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: left;
+}
+
+.card ul li .price-bold {
+  font-weight: 600;
+}
+
+.card .btn {
+  width: 100%;
+  height: 150px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .btn a {
+  width: 180px;
+  height: 45px;
+  color: white;
+  line-height: 40px;
+  text-decoration: none;
+  font-size: 14;
+  background-color: #0071c5;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.card .btn a:hover {
+  background-color: darkblue;
+  box-shadow: 0 0 10px 0 darkblue;
+  color: white;
+}
+
+/* Style FAQ */
+
+.faq {
+  background-color: #d9d9d9;
+}
+
+.faq .heading-faq {
+  color: #6d6d6d;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: 80% auto;
+  justify-content: center;
+  padding: 4em 1em;
+}
+
+.faq ul {
+  margin-left: 0;
+  padding: 0;
+  display: grid;
+  list-style-type: none;
+
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+}
+
+.faq ul li span {
+  display: block;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  color: #6d6d6d;
+}
+
+.faq ul li {
+  padding: 2em;
+  color: #a2a2a2;
+}
